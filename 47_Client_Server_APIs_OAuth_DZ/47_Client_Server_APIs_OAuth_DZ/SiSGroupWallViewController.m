@@ -13,7 +13,7 @@
 #import "SiSFriend.h"
 #import "SiSPost.h"
 
-@interface SiSGroupWallViewController ()
+@interface SiSGroupWallViewController () <UITextFieldDelegate>
 
 @property (strong, nonatomic) NSMutableArray* postsArray;
 
@@ -37,7 +37,7 @@ static NSInteger postsInRequest = 20;
     
     self.firstTimeAppear = YES;
     
-    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
     
     UIRefreshControl* refresh = [[UIRefreshControl alloc] init];
     [refresh addTarget:self
@@ -78,14 +78,55 @@ static NSInteger postsInRequest = 20;
 
 - (void) postOnWall: (id) sender {
     
-    [[SiSServerManager sharedManager]
-     postText:@"Приветики! Проверка 47-го )))"
-     onGroupWall:@"92664696"
-     onSuccess:^(id result) {
-        
-    } onFailure:^(NSError *error, NSInteger statusCode) {
-        
+    UIAlertController* alert = [UIAlertController
+                                alertControllerWithTitle:@"Хотите добавить новый пост?!"
+                                message:@"Ваш пост добавится. Нажмите ""ДА"" для сохранения и возврата или ""НЕТ"" для отказа"
+                                preferredStyle:UIAlertControllerStyleAlert];
+    
+    
+    UIAlertAction* okAction = [UIAlertAction actionWithTitle:@"ДА"
+                                                       style:UIAlertActionStyleDefault
+                                                     handler:^(UIAlertAction * _Nonnull action) {
+                                                         
+                                                         UITextField *textField = alert.textFields[0];
+                                                         
+                                                         NSString* somethingInAlert = [NSString stringWithFormat:@"%@", textField.text];
+                                                         
+                                                         [[SiSServerManager sharedManager]
+                                                          postText:somethingInAlert
+                                                          onGroupWall:@"92664696"
+                                                          onSuccess:^(id result) {
+                                                              
+                                                          } onFailure:^(NSError *error, NSInteger statusCode) {
+                                                              
+                                                          }];
+                                                         
+                                                         [self returnBack];
+                                                     }];
+    
+    UIAlertAction* NopeAction = [UIAlertAction actionWithTitle:@"НЕТ"
+                                                         style:UIAlertActionStyleDefault
+                                                       handler:^(UIAlertAction * _Nonnull action) {
+                                                           
+                                                       }];
+    
+    [alert addAction:okAction];
+    [alert addAction:NopeAction];
+    
+    [alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+        textField.placeholder = @"напишите свой текст...";
+        textField.keyboardType = UIKeyboardTypeDefault;
     }];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+    
+}
+
+- (void) returnBack {
+    
+    [self.tableView reloadData];
+    
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void) refreshWall {
@@ -173,6 +214,9 @@ static NSInteger postsInRequest = 20;
         SiSPost* post = [self.postsArray objectAtIndex:indexPath.row];
         
         cell.postTextLabel.text = post.text;
+        cell.commentsCountLabel.text = post.comments;
+        cell.likesCountLabel.text = post.likes;
+        cell.repostsCountLabel.text = post.reposts;
         
         return cell;
     }

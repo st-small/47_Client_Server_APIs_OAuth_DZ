@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		245D335B4F1BC013C30DD782 /* libPods-47_Client_Server_APIs_OAuth_DZ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 893F4B8238216C2874FADF65 /* libPods-47_Client_Server_APIs_OAuth_DZ.a */; };
 		524346D91D3B98BA00C89579 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 524346D81D3B98BA00C89579 /* main.m */; };
 		524346DC1D3B98BA00C89579 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 524346DB1D3B98BA00C89579 /* AppDelegate.m */; };
 		524346DF1D3B98BA00C89579 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524346DE1D3B98BA00C89579 /* ViewController.m */; };
@@ -15,6 +16,15 @@
 		524346E71D3B98BA00C89579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524346E51D3B98BA00C89579 /* LaunchScreen.storyboard */; };
 		524346F21D3B98BA00C89579 /* _7_Client_Server_APIs_OAuth_DZTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 524346F11D3B98BA00C89579 /* _7_Client_Server_APIs_OAuth_DZTests.m */; };
 		524346FD1D3B98BA00C89579 /* _7_Client_Server_APIs_OAuth_DZUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 524346FC1D3B98BA00C89579 /* _7_Client_Server_APIs_OAuth_DZUITests.m */; };
+		5243470C1D3BAA9100C89579 /* SiSServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243470B1D3BAA9100C89579 /* SiSServerManager.m */; };
+		5243470F1D3BAAB500C89579 /* SiSFriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243470E1D3BAAB500C89579 /* SiSFriendsTableViewController.m */; };
+		524347121D3BAAC800C89579 /* SiSFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = 524347111D3BAAC800C89579 /* SiSFriend.m */; };
+		524347151D3BAADA00C89579 /* SiSServerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 524347141D3BAADA00C89579 /* SiSServerObject.m */; };
+		524347181D3BBE3D00C89579 /* SiSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524347171D3BBE3D00C89579 /* SiSLoginViewController.m */; };
+		5243471B1D3BBE4800C89579 /* SiSAccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243471A1D3BBE4800C89579 /* SiSAccessToken.m */; };
+		5243471E1D3BBE9500C89579 /* SiSGroupWallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243471D1D3BBE9500C89579 /* SiSGroupWallViewController.m */; };
+		524347211D3BBEA000C89579 /* SiSPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 524347201D3BBEA000C89579 /* SiSPost.m */; };
+		524347251D3BBEC600C89579 /* SiSPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 524347241D3BBEC600C89579 /* SiSPostCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0180D53477B146476C369469 /* Pods-47_Client_Server_APIs_OAuth_DZ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-47_Client_Server_APIs_OAuth_DZ.release.xcconfig"; path = "Pods/Target Support Files/Pods-47_Client_Server_APIs_OAuth_DZ/Pods-47_Client_Server_APIs_OAuth_DZ.release.xcconfig"; sourceTree = "<group>"; };
 		524346D41D3B98BA00C89579 /* 47_Client_Server_APIs_OAuth_DZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 47_Client_Server_APIs_OAuth_DZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		524346D81D3B98BA00C89579 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		524346DA1D3B98BA00C89579 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,26 @@
 		524346F81D3B98BA00C89579 /* 47_Client_Server_APIs_OAuth_DZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 47_Client_Server_APIs_OAuth_DZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		524346FC1D3B98BA00C89579 /* _7_Client_Server_APIs_OAuth_DZUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _7_Client_Server_APIs_OAuth_DZUITests.m; sourceTree = "<group>"; };
 		524346FE1D3B98BA00C89579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5243470A1D3BAA9100C89579 /* SiSServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiSServerManager.h; sourceTree = "<group>"; };
+		5243470B1D3BAA9100C89579 /* SiSServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiSServerManager.m; sourceTree = "<group>"; };
+		5243470D1D3BAAB500C89579 /* SiSFriendsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiSFriendsTableViewController.h; sourceTree = "<group>"; };
+		5243470E1D3BAAB500C89579 /* SiSFriendsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiSFriendsTableViewController.m; sourceTree = "<group>"; };
+		524347101D3BAAC800C89579 /* SiSFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiSFriend.h; sourceTree = "<group>"; };
+		524347111D3BAAC800C89579 /* SiSFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiSFriend.m; sourceTree = "<group>"; };
+		524347131D3BAADA00C89579 /* SiSServerObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiSServerObject.h; sourceTree = "<group>"; };
+		524347141D3BAADA00C89579 /* SiSServerObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiSServerObject.m; sourceTree = "<group>"; };
+		524347161D3BBE3D00C89579 /* SiSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiSLoginViewController.h; sourceTree = "<group>"; };
+		524347171D3BBE3D00C89579 /* SiSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiSLoginViewController.m; sourceTree = "<group>"; };
+		524347191D3BBE4800C89579 /* SiSAccessToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiSAccessToken.h; sourceTree = "<group>"; };
+		5243471A1D3BBE4800C89579 /* SiSAccessToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiSAccessToken.m; sourceTree = "<group>"; };
+		5243471C1D3BBE9500C89579 /* SiSGroupWallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiSGroupWallViewController.h; sourceTree = "<group>"; };
+		5243471D1D3BBE9500C89579 /* SiSGroupWallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiSGroupWallViewController.m; sourceTree = "<group>"; };
+		5243471F1D3BBEA000C89579 /* SiSPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiSPost.h; sourceTree = "<group>"; };
+		524347201D3BBEA000C89579 /* SiSPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiSPost.m; sourceTree = "<group>"; };
+		524347231D3BBEC600C89579 /* SiSPostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiSPostCell.h; sourceTree = "<group>"; };
+		524347241D3BBEC600C89579 /* SiSPostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiSPostCell.m; sourceTree = "<group>"; };
+		893F4B8238216C2874FADF65 /* libPods-47_Client_Server_APIs_OAuth_DZ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-47_Client_Server_APIs_OAuth_DZ.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D27C43CEAEB4BF5C4E01CF /* Pods-47_Client_Server_APIs_OAuth_DZ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-47_Client_Server_APIs_OAuth_DZ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-47_Client_Server_APIs_OAuth_DZ/Pods-47_Client_Server_APIs_OAuth_DZ.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				245D335B4F1BC013C30DD782 /* libPods-47_Client_Server_APIs_OAuth_DZ.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +110,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D628A0EBC8354DD2540A1F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9D27C43CEAEB4BF5C4E01CF /* Pods-47_Client_Server_APIs_OAuth_DZ.debug.xcconfig */,
+				0180D53477B146476C369469 /* Pods-47_Client_Server_APIs_OAuth_DZ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		334A70B5AD6C6009919B1175 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				893F4B8238216C2874FADF65 /* libPods-47_Client_Server_APIs_OAuth_DZ.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		524346CB1D3B98BA00C89579 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +134,8 @@
 				524346F01D3B98BA00C89579 /* 47_Client_Server_APIs_OAuth_DZTests */,
 				524346FB1D3B98BA00C89579 /* 47_Client_Server_APIs_OAuth_DZUITests */,
 				524346D51D3B98BA00C89579 /* Products */,
+				1D628A0EBC8354DD2540A1F8 /* Pods */,
+				334A70B5AD6C6009919B1175 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +156,19 @@
 				524346DB1D3B98BA00C89579 /* AppDelegate.m */,
 				524346DD1D3B98BA00C89579 /* ViewController.h */,
 				524346DE1D3B98BA00C89579 /* ViewController.m */,
+				524347231D3BBEC600C89579 /* SiSPostCell.h */,
+				524347241D3BBEC600C89579 /* SiSPostCell.m */,
+				524347221D3BBEA700C89579 /* Model */,
+				5243470D1D3BAAB500C89579 /* SiSFriendsTableViewController.h */,
+				5243470E1D3BAAB500C89579 /* SiSFriendsTableViewController.m */,
+				5243471C1D3BBE9500C89579 /* SiSGroupWallViewController.h */,
+				5243471D1D3BBE9500C89579 /* SiSGroupWallViewController.m */,
+				5243470A1D3BAA9100C89579 /* SiSServerManager.h */,
+				5243470B1D3BAA9100C89579 /* SiSServerManager.m */,
+				524347161D3BBE3D00C89579 /* SiSLoginViewController.h */,
+				524347171D3BBE3D00C89579 /* SiSLoginViewController.m */,
+				524347191D3BBE4800C89579 /* SiSAccessToken.h */,
+				5243471A1D3BBE4800C89579 /* SiSAccessToken.m */,
 				524346E01D3B98BA00C89579 /* Main.storyboard */,
 				524346E31D3B98BA00C89579 /* Assets.xcassets */,
 				524346E51D3B98BA00C89579 /* LaunchScreen.storyboard */,
@@ -140,6 +204,19 @@
 			path = 47_Client_Server_APIs_OAuth_DZUITests;
 			sourceTree = "<group>";
 		};
+		524347221D3BBEA700C89579 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				524347131D3BAADA00C89579 /* SiSServerObject.h */,
+				524347141D3BAADA00C89579 /* SiSServerObject.m */,
+				524347101D3BAAC800C89579 /* SiSFriend.h */,
+				524347111D3BAAC800C89579 /* SiSFriend.m */,
+				5243471F1D3BBEA000C89579 /* SiSPost.h */,
+				524347201D3BBEA000C89579 /* SiSPost.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 524347011D3B98BA00C89579 /* Build configuration list for PBXNativeTarget "47_Client_Server_APIs_OAuth_DZ" */;
 			buildPhases = (
+				5A640C1199604F5B7D432AAF /* [CP] Check Pods Manifest.lock */,
 				524346D01D3B98BA00C89579 /* Sources */,
 				524346D11D3B98BA00C89579 /* Frameworks */,
 				524346D21D3B98BA00C89579 /* Resources */,
+				B724AD8162DC6679527D28FE /* [CP] Embed Pods Frameworks */,
+				0BC27370B60F3DAE5DB7A0BC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,6 +346,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BC27370B60F3DAE5DB7A0BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-47_Client_Server_APIs_OAuth_DZ/Pods-47_Client_Server_APIs_OAuth_DZ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A640C1199604F5B7D432AAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B724AD8162DC6679527D28FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-47_Client_Server_APIs_OAuth_DZ/Pods-47_Client_Server_APIs_OAuth_DZ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		524346D01D3B98BA00C89579 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -273,7 +401,16 @@
 			files = (
 				524346DF1D3B98BA00C89579 /* ViewController.m in Sources */,
 				524346DC1D3B98BA00C89579 /* AppDelegate.m in Sources */,
+				524347181D3BBE3D00C89579 /* SiSLoginViewController.m in Sources */,
+				5243470F1D3BAAB500C89579 /* SiSFriendsTableViewController.m in Sources */,
+				5243470C1D3BAA9100C89579 /* SiSServerManager.m in Sources */,
+				524347151D3BAADA00C89579 /* SiSServerObject.m in Sources */,
+				5243471B1D3BBE4800C89579 /* SiSAccessToken.m in Sources */,
 				524346D91D3B98BA00C89579 /* main.m in Sources */,
+				5243471E1D3BBE9500C89579 /* SiSGroupWallViewController.m in Sources */,
+				524347251D3BBEC600C89579 /* SiSPostCell.m in Sources */,
+				524347211D3BBEA000C89579 /* SiSPost.m in Sources */,
+				524347121D3BAAC800C89579 /* SiSFriend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +551,7 @@
 		};
 		524347021D3B98BA00C89579 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9D27C43CEAEB4BF5C4E01CF /* Pods-47_Client_Server_APIs_OAuth_DZ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 47_Client_Server_APIs_OAuth_DZ/Info.plist;
@@ -425,6 +563,7 @@
 		};
 		524347031D3B98BA00C89579 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0180D53477B146476C369469 /* Pods-47_Client_Server_APIs_OAuth_DZ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 47_Client_Server_APIs_OAuth_DZ/Info.plist;
@@ -499,6 +638,7 @@
 				524347031D3B98BA00C89579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		524347041D3B98BA00C89579 /* Build configuration list for PBXNativeTarget "47_Client_Server_APIs_OAuth_DZTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +647,7 @@
 				524347061D3B98BA00C89579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		524347071D3B98BA00C89579 /* Build configuration list for PBXNativeTarget "47_Client_Server_APIs_OAuth_DZUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +656,7 @@
 				524347091D3B98BA00C89579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -11,6 +11,9 @@
 @interface SiSPostCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UILabel* postTextLabel;
+@property (weak, nonatomic) IBOutlet UILabel* commentsCountLabel;
+@property (weak, nonatomic) IBOutlet UILabel* likesCountLabel;
+@property (weak, nonatomic) IBOutlet UILabel* repostsCountLabel;
 
 + (CGFloat) heightForText:(NSString *) text;
 
