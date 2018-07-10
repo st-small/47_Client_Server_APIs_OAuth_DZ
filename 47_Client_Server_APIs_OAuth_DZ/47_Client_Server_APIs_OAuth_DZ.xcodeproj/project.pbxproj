@@ -58,7 +58,7 @@
 		524346E81D3B98BA00C89579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		524346ED1D3B98BA00C89579 /* 47_Client_Server_APIs_OAuth_DZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 47_Client_Server_APIs_OAuth_DZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		524346F11D3B98BA00C89579 /* _7_Client_Server_APIs_OAuth_DZTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _7_Client_Server_APIs_OAuth_DZTests.m; sourceTree = "<group>"; };
-		524346F31D3B98BA00C89579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524346F31D3B98BA00C89579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = 47_Client_Server_APIs_OAuth_DZTests/Info.plist; sourceTree = SOURCE_ROOT; };
 		524346F81D3B98BA00C89579 /* 47_Client_Server_APIs_OAuth_DZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 47_Client_Server_APIs_OAuth_DZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		524346FC1D3B98BA00C89579 /* _7_Client_Server_APIs_OAuth_DZUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _7_Client_Server_APIs_OAuth_DZUITests.m; sourceTree = "<group>"; };
 		524346FE1D3B98BA00C89579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -131,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				524346D61D3B98BA00C89579 /* 47_Client_Server_APIs_OAuth_DZ */,
-				524346F01D3B98BA00C89579 /* 47_Client_Server_APIs_OAuth_DZTests */,
 				524346FB1D3B98BA00C89579 /* 47_Client_Server_APIs_OAuth_DZUITests */,
 				524346D51D3B98BA00C89579 /* Products */,
 				1D628A0EBC8354DD2540A1F8 /* Pods */,
@@ -181,6 +180,8 @@
 		524346D71D3B98BA00C89579 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				524346F31D3B98BA00C89579 /* Info.plist */,
+				524346F01D3B98BA00C89579 /* 47_Client_Server_APIs_OAuth_DZTests */,
 				524346D81D3B98BA00C89579 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -190,10 +191,9 @@
 			isa = PBXGroup;
 			children = (
 				524346F11D3B98BA00C89579 /* _7_Client_Server_APIs_OAuth_DZTests.m */,
-				524346F31D3B98BA00C89579 /* Info.plist */,
 			);
 			path = 47_Client_Server_APIs_OAuth_DZTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		524346FB1D3B98BA00C89579 /* 47_Client_Server_APIs_OAuth_DZUITests */ = {
 			isa = PBXGroup;
